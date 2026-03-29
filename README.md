@@ -1,4 +1,4 @@
-# 📊 SQL Database Practice
+# 📊 SQL Database Repository / Repositório de Banco de Dados (SQL)
 
 <p align="center">
   <img src="https://img.shields.io/badge/SQL-MySQL-blue?style=for-the-badge&logo=mysql" />
@@ -23,80 +23,83 @@ Consolidar o aprendizado dos principais conceitos de banco de dados relacionais,
 * Consultas SQL
 * Integridade referencial
 
----
-
 ### 🛠️ Tecnologias Utilizadas
 
 * MySQL
 * MySQL Workbench
 * SQL padrão
 
----
-
 ### 📂 Estrutura do Repositório
 
-```
+```bash
 📁 sql-database-practice
- ├── 📄 create_database.sql
- ├── 📄 create_tables.sql
- ├── 📄 inserts.sql
- ├── 📄 updates.sql
- ├── 📄 deletes.sql
- ├── 📄 selects.sql
+ ├── 📁 databases/
+ │    ├── empresa.sql   (contém CREATE DATABASE + tabelas)
+ │    ├── escola.sql    (contém CREATE DATABASE + tabelas)
+ │    └── outros_bancos.sql
+ │
+ ├── 📁 data/
+ │    ├── inserts.sql
+ │    ├── updates.sql
+ │    └── deletes.sql
+ │
+ ├── 📁 queries/
+ │    ├── selects_basicos.sql
+ │    ├── joins.sql
+ │    └── consultas_avancadas.sql
+ │
  └── 📄 README.md
 ```
 
----
+📁 banco-de-dados-sql
+├── 📄 create_database.sql
+├── 📄 create_tables.sql
+├── 📄 inserts.sql
+├── 📄 updates.sql
+├── 📄 deletes.sql
+├── 📄 selects.sql
+└── 📄 README.md
+
+````
 
 ### 📚 Conteúdos Abordados
 
 #### 🔹 DDL (Data Definition Language)
-
-* `CREATE DATABASE`
-* `CREATE TABLE`
-* `ALTER TABLE`
+- `CREATE DATABASE`
+- `CREATE TABLE`
+- `ALTER TABLE`
 
 #### 🔹 DML (Data Manipulation Language)
-
-* `INSERT`
-* `UPDATE`
-* `DELETE`
+- `INSERT`
+- `UPDATE`
+- `DELETE`
 
 #### 🔹 Consultas
-
-* `SELECT`
-* `WHERE`
-* `JOIN`
-* Funções (`COUNT`, `AVG`, `MONTH`, etc.)
+- `SELECT`
+- `WHERE`
+- `JOIN`
+- Funções (`COUNT`, `AVG`, `MONTH`, etc.)
 
 #### 🔹 Integridade Referencial
-
-* Chaves estrangeiras (FOREIGN KEY)
-* Relacionamentos entre tabelas
-* Restrições (constraints)
-
----
+- Chaves estrangeiras (FOREIGN KEY)
+- Relacionamentos entre tabelas
+- Restrições (constraints)
 
 ### 🧪 Exemplos de Exercícios
 
-* Listar funcionários por cidade
-* Calcular média salarial
-* Atualizar salários com porcentagem
-* Identificar aniversariantes do mês
-* Relacionar funcionários com departamentos
-
----
+- Listar funcionários por cidade
+- Calcular média salarial
+- Atualizar salários com porcentagem
+- Identificar aniversariantes do mês
+- Relacionar funcionários com departamentos
 
 ### ⚠️ Observações Importantes
 
-* Algumas operações exigem cuidado com **chaves estrangeiras**
-* O MySQL Workbench pode utilizar o **Safe Update Mode**, exigindo o uso de `WHERE` em comandos `UPDATE` e `DELETE`
-* Em casos de dependência entre tabelas, pode ser necessário:
-
-  * Atualizar valores para `NULL`
-  * Seguir a ordem correta de exclusão
-
----
+- Algumas operações exigem cuidado com **chaves estrangeiras**
+- O MySQL Workbench pode utilizar o **Safe Update Mode**, exigindo o uso de `WHERE` em comandos `UPDATE` e `DELETE`
+- Em casos de dependência entre tabelas, pode ser necessário:
+  - Atualizar valores para `NULL`
+  - Ou seguir a ordem correta de exclusão
 
 ### 🚀 Como Executar
 
@@ -105,11 +108,9 @@ Consolidar o aprendizado dos principais conceitos de banco de dados relacionais,
 3. Inserir os dados
 4. Executar consultas e testes
 
----
-
 ### 👩‍💻 Autora
 
-**Rayssa Lima**
+**Rayssa Lima**  
 Graduanda em Ciência da Computação
 
 ---
@@ -122,87 +123,78 @@ This repository was created to store activities, exercises, and practical work d
 
 To consolidate the learning of key relational database concepts, including:
 
-* Database creation
-* Table modeling
-* Use of primary and foreign keys
-* Data manipulation (CRUD)
-* SQL queries
-* Referential integrity
-
----
+- Database creation
+- Table modeling
+- Use of primary and foreign keys
+- Data manipulation (CRUD)
+- SQL queries
+- Referential integrity
 
 ### 🛠️ Technologies Used
 
-* MySQL
-* MySQL Workbench
-* Standard SQL
-
----
+- MySQL
+- MySQL Workbench
+- Standard SQL
 
 ### 📂 Repository Structure
 
-```
+```bash
 📁 sql-database-practice
- ├── 📄 create_database.sql
- ├── 📄 create_tables.sql
- ├── 📄 inserts.sql
- ├── 📄 updates.sql
- ├── 📄 deletes.sql
- ├── 📄 selects.sql
+ ├── 📁 databases/   (each file contains database + tables)
+ ├── 📁 data/
+ ├── 📁 queries/
  └── 📄 README.md
-```
+````
 
----
+📁 sql-database
+├── 📄 create_database.sql
+├── 📄 create_tables.sql
+├── 📄 inserts.sql
+├── 📄 updates.sql
+├── 📄 deletes.sql
+├── 📄 selects.sql
+└── 📄 README.md
+
+```
 
 ### 📚 Covered Topics
 
 #### 🔹 DDL (Data Definition Language)
-
-* `CREATE DATABASE`
-* `CREATE TABLE`
-* `ALTER TABLE`
+- `CREATE DATABASE`
+- `CREATE TABLE`
+- `ALTER TABLE`
 
 #### 🔹 DML (Data Manipulation Language)
-
-* `INSERT`
-* `UPDATE`
-* `DELETE`
+- `INSERT`
+- `UPDATE`
+- `DELETE`
 
 #### 🔹 Queries
-
-* `SELECT`
-* `WHERE`
-* `JOIN`
-* Functions (`COUNT`, `AVG`, `MONTH`, etc.)
+- `SELECT`
+- `WHERE`
+- `JOIN`
+- Functions (`COUNT`, `AVG`, `MONTH`, etc.)
 
 #### 🔹 Referential Integrity
-
-* Foreign keys (FOREIGN KEY)
-* Table relationships
-* Constraints
-
----
+- Foreign keys (FOREIGN KEY)
+- Table relationships
+- Constraints
 
 ### 🧪 Exercise Examples
 
-* List employees by city
-* Calculate average salary
-* Update salaries with percentage increases
-* Identify employees with birthdays this month
-* Relate employees to departments
-
----
+- List employees by city
+- Calculate average salary
+- Update salaries with percentage increases
+- Identify employees with birthdays this month
+- Relate employees to departments
 
 ### ⚠️ Important Notes
 
-* Some operations require attention to **foreign keys**
-* MySQL Workbench may use **Safe Update Mode**, requiring `WHERE` in `UPDATE` and `DELETE`
-* In cases of table dependency, it may be necessary to:
-
-  * Set values to `NULL`
-  * Follow the correct deletion order
-
----
+- Some operations require attention to **foreign keys**
+- MySQL Workbench may use **Safe Update Mode**, requiring `WHERE` in `UPDATE` and `DELETE`
+- In cases of table dependency, it may be necessary to:
+  - Set values to `NULL`
+  - Follow the correct deletion order
 
 ### 🚀 How to Run
 
@@ -216,3 +208,5 @@ To consolidate the learning of key relational database concepts, including:
 ### 📎 Final Note
 
 This repository represents practical progress in learning SQL and is useful for revision, study, and exam preparation.
+
+```
