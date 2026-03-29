@@ -48,6 +48,8 @@ Consolidar o aprendizado dos principais conceitos de banco de dados relacionais,
  │    ├── joins.sql
  │    └── consultas_avancadas.sql
  │
+ ├── 📁 problems/
+ │
  └── 📄 README.md
 ```
 
@@ -132,6 +134,7 @@ To consolidate the learning of key relational database concepts, including:
  ├── 📁 databases/   (each file contains database + tables)
  ├── 📁 data/
  ├── 📁 queries/
+ ├── 📁 problems/
  └── 📄 README.md
 ````
 
