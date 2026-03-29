@@ -50,16 +50,6 @@ Consolidar o aprendizado dos principais conceitos de banco de dados relacionais,
  │
  └── 📄 README.md
 ```
-```bash
-📁 banco-de-dados-sql
-├── 📄 create_database.sql
-├── 📄 create_tables.sql
-├── 📄 inserts.sql
-├── 📄 updates.sql
-├── 📄 deletes.sql
-├── 📄 selects.sql
-└── 📄 README.md
-```
 
 ### 📚 Conteúdos Abordados
 
@@ -144,16 +134,6 @@ To consolidate the learning of key relational database concepts, including:
  ├── 📁 queries/
  └── 📄 README.md
 ````
-```
-📁 sql-database
-├── 📄 create_database.sql
-├── 📄 create_tables.sql
-├── 📄 inserts.sql
-├── 📄 updates.sql
-├── 📄 deletes.sql
-├── 📄 selects.sql
-└── 📄 README.md
-```
 
 ### 📚 Covered Topics
 
