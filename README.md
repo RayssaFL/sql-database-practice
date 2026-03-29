@@ -109,7 +109,7 @@ Consolidar o aprendizado dos principais conceitos de banco de dados relacionais,
 
 ### 👩‍💻 Autora
 
-**Rayssa Lima**  
+**Rayssa Fialho**  
 Graduanda em Ciência da Computação
 
 ---
@@ -207,4 +207,3 @@ To consolidate the learning of key relational database concepts, including:
 
 This repository represents practical progress in learning SQL and is useful for revision, study, and exam preparation.
 
-```
