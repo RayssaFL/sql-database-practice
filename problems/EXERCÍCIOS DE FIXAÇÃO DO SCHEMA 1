@@ -1,0 +1,17 @@
+##EXERCÍCIOS DE FIXAÇÃO DO SCHEMA 1
+
+1. Insira três departamentos;
+2. Insira 12 funcionários, quatro em cada departamento;
+3. Exclua 2 funcionários;
+4. Exclua 1 funcionário do primeiro departamento que criou;
+5. Atualize o salário dos funcionários com 5% de aumento;
+6. Atualize com mais 2% o salário dos funcionários na função
+de gerente;
+7. Consulte (liste) todos os departamentos;
+8. Consulte (liste) todos os funcionários;
+9. Retorne o nome completo dos funcionários na função de
+gerente;
+10.Retorne a liste de funcionários que fazem aniversário este
+mês.
+11.Listar todos os funcionários que moram na cidade de
+Fortaleza.
