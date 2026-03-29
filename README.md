@@ -60,7 +60,6 @@ Consolidar o aprendizado dos principais conceitos de banco de dados relacionais,
 ├── 📄 selects.sql
 └── 📄 README.md
 ```
-````
 
 ### 📚 Conteúdos Abordados
 
@@ -154,7 +153,6 @@ To consolidate the learning of key relational database concepts, including:
 ├── 📄 deletes.sql
 ├── 📄 selects.sql
 └── 📄 README.md
-```
 ```
 
 ### 📚 Covered Topics
