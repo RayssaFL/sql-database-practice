@@ -35,7 +35,7 @@ Consolidar o aprendizado dos principais conceitos de banco de dados relacionais,
 📁 sql-database-practice
  ├── 📁 databases/
  │    ├── empresa.sql   (contém CREATE DATABASE + tabelas)
- │    ├── escola.sql    (contém CREATE DATABASE + tabelas)
+ │    ├── sis_academico.sql    (contém CREATE DATABASE + tabelas)
  │    └── outros_bancos.sql
  │
  ├── 📁 data/
