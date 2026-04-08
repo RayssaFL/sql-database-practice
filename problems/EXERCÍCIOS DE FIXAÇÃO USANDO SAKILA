@@ -1,0 +1,8 @@
+##EXERCÍCIOS DE FIXAÇÃO USANDO SAKILA
+
+1. Liste os filmes que possuem taxa de locação (rental_rate) superior a R$ 3,00;
+2. Liste os atores que atuaram nos filmes disponíveis;
+3. Apresente a quantidade de filmes por Duração da Locação (Rental_Duration) (Utilize o GROUP BY);
+4. Liste o valor do filme com maior preço de locação (rental_rate);
+5. Apresente os filmes que possuem no título a palavra ‘WEST’;
+6. Liste os clientes que não estão ativos;
