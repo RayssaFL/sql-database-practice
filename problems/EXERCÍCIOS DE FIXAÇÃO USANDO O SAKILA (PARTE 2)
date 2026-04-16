@@ -1,4 +1,4 @@
-##EXERCÍCIOS DE FIXAÇÃO DO SCHEMA SAKILA (PARTE 2)
+##EXERCÍCIOS DE FIXAÇÃO USANDO O SAKILA (PARTE 2)
 1. Liste o título e a descrição do filme ordenados pelo título em ordem descendente;
 2. Liste o título e a descrição do filme, ordenando pelo título do filme de forma ascendente e a descrição de forma descendente;
 3. Liste os diferentes valores de taxa de locação (rental_rate) do filme;
